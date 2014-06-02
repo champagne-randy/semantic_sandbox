@@ -1,0 +1,86 @@
+Semantic-UI
+
+Who
+	Jack Lukic
+What
+	Front end framework for design
+	similar to bootstrap
+When
+	2013
+Why
+	Easier to write
+	individual componenets
+	Components that are not available in other frameworks
+		ratings
+		dimmer
+		UI-View
+			Comments
+			Feeds
+			Items
+			List
+		
+	Componenets that are avaliable in other frameworks
+		grids
+		forms
+		modals
+
+Pros
+	set of individual components
+		can be used without needing the entire framework
+		
+	For developer
+		real-time debug output
+		
+	Mix and match with other frameworks
+		only pull in buttons or grids
+	
+	tag agnostic - use any html tags with UI elements.
+	
+	Looks pretty
+	
+	Has tests
+		
+Cons
+	Still being worked on
+	Prerelease - v0.17.0
+	Not every component is there currently
+
+Compare to Bootstrap
+	Very similar to bootstrap
+	has most of the same components
+		buttons
+		forms
+		checkboxes
+		
+	human friendly class names
+	
+
+other stuff
+	Semantics - study of meaning with focus on words/phrases/signs
+	using natural langauge to convey meaning.
+		more about describing what's happening
+	linguisticly semantic
+		class names reads like english
+	Got traction before it was ready for prime time.
+	
+	Browser Support
+		Last 2 Versions FF, Chrome, IE (aka 10+)
+		Safari 6
+		Firefox 12
+		IE 9+ (Browser prefix only)
+		Android 3
+		Blackberry 10
+	
+	Things planned for 1.0
+		Video
+		search
+		visibility classes
+		better support for responsiveness
+		
+		
+references
+http://thechangelog.com/106/
+http://semantic-ui.com
+https://github.com/Semantic-Org/Semantic-UI
+http://www.sitepoint.com/introducing-semantic-ui-component-library/
+https://groups.google.com/forum/#!forum/semantic-ui

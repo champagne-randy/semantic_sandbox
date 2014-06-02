@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Semantic-UI</title>
+    <script type="text/javascript" src="scripts/lib/jquery.js"></script>
+    <script type="text/javascript" src="semantic/packaged/javascript/semantic.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <link rel="stylesheet" href="semantic/packaged/css/semantic.min.css"></link>
+</head>
+
+<body>
+    <nav class="ui menu">
+        <a class="item">Title</a>
+        <a class="active item">Home</a>
+        <a class="item">About</a>
+        <a class="item">Contact</a>
+        <span class="right floated text item">
+          Signed in as <a href="#">user</a>
+        </span>
+    </nav>
+
+    <main class="ui two column grid">
+        <aside class="column">1</aside>
+        <section class="column">2</section>
+        <section class="column">3</section>
+        <section class="column">4</section>
+        <section class="column">5</section>
+        <section class="column">6</section>
+        <section class="column">7</section>
+        <section class="column">8</section>
+    </main>
+
+    <div class="ui large buttons">
+        <button class="large ui circular facebook button">
+            <i class="facebook icon"></i>
+        </button>
+        <div class="or"></div>
+        <button class="large ui google plus button">
+            <i class="google plus icon"></i>
+        </button>
+        <div class="or"></div>
+        <button class="large ui twitter button">
+            <i class="twitter icon"></i>
+        </button>
+        <div class="or"></div>
+        <button class="large ui linkedin button">
+            <i class="linkedin icon"></i>
+        </button>
+    </div>
+
+    <div class="ui form segment">
+        <div class="field">
+            <label>Username</label>
+            <div class="ui left labeled icon input">
+                <input type="text" name="username" placeholder="Username">
+                <i class="facebook icon"></i>
+                <div class="ui corner label">
+                    <i class="icon asterisk"></i>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <label>Password</label>
+            <div class="ui left labeled icon input">
+                <input type="password" name="password">
+                <i class="apple icon"></i>
+                <div class="ui corner label">
+                    <i class="icon asterisk"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal here -->
+        <div class="ui modal">
+            <i class="close icon"></i>
+            <div class="header">
+                Success
+            </div>
+            <div class="ui active striped green progress">
+                <div class="bar"></div>
+            </div>
+            <div class="content">
+                Congratulations. You can follow simple instructions.
+            </div>
+            <div class="actions">
+                <div class="ui black button">Cancel</div>
+                <div class="ui positive button">OK</div>
+            </div>
+        </div>
+
+        <!-- Error message display -->
+        <div class="ui error message">
+            <div class="header">We noticed some issues</div>
+        </div>
+
+        <input type="submit" value="submit" class="ui blue submit button">
+    </div>
+</body>
+
+</html>
