@@ -20,3 +20,12 @@ dependencies are:
 "gulp-rename": "^1.2.2",
 "gulp-ruby-sass": "^1.3.0",
 "gulp-uglify": "^1.3.0"
+
+
+
+
+ToDo:
+x initialize node.js project
+- write gulpfile.js
+- organize directory structure
+
