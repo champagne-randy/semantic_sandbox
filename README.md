@@ -27,5 +27,6 @@ dependencies are:
 ToDo:
 x initialize node.js project
 - write gulpfile.js
-- organize directory structure
+x organize directory structure
+- add a server.js
 
