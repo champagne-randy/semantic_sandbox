@@ -9,14 +9,27 @@ var gulp = require('gulp'),							// plugin to process sass files
 
 /*
 	ToDo:
+	- create a clean task to clear dest folder
+*/
+gulp.task('clean', function() {
+	return {};
+});
+
+
+/*
+	ToDo:
 	- create a build-semantic task
 		copy all fonts
 		xxx minify and copy semantic specific files
 		simply copy content from ./src/libraries/semantic/packaged/ to ./public/libs/semantic/
+	- add config details to config file:
+		src for semantic files
+		dest for semantic files
 */
 gulp.task('process-semantic', function() {
-	return {};
-})
+	return gulp.src(['./src/libraries/semantic/packaged/**/*'])
+		.pipe(gulp.dest('public/libs/semantic'));
+});
 
 
 /*

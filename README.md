@@ -27,6 +27,11 @@ dependencies are:
 ToDo:
 x initialize node.js project
 - write gulpfile.js
+- hook up linting
 x organize directory structure
 - add a server.js
-
+- add bootstrap library to make this more generic
+- abstract the build file, use config file that determines which front-end framework project will use
+	// config files
+	var db = require('./config/db');
+	Bower is the solution to this problem
